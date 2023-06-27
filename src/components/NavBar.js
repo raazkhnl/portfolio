@@ -48,9 +48,9 @@ const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://facebook.com/raazkhnl"><span><BsFacebook color="white"/></span></a>
-                <a href="https://instagram.com/raazkhnl"><span><BsInstagram color="white"/></span></a>
-                <a href="https://github.com/raazkhnl"><span><BsGithub color="white"/></span></a>
+                <a target="_blank" rel="noreferrer" href="https://facebook.com/raazkhnl"  ><span><BsFacebook color="white"/></span></a>
+                <a target="_blank" rel="noreferrer" href="https://instagram.com/raazkhnl"><span><BsInstagram color="white"/></span></a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/raazkhnl"><span><BsGithub color="white"/></span></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>

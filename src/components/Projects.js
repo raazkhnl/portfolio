@@ -50,7 +50,7 @@ const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                  <p>In a journy of innovation to life. From Blogged to Dharan Health Portal, Internship Management System to Portfolio Optimization using ANN, each project is a testament to my transformative skills. Join me on this captivating journey of creativity and impact.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>

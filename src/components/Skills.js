@@ -39,8 +39,8 @@ const Skills = () => {
                 
                     <div className="skill-bx mt-2 ">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                            <p>Mastering the digital symphony, I wield a formidable arsenal of skills. From the harmonious melodies of C, C++, Python, and JavaScript to the mesmerizing rhythms of React, Laravel, and Django, I orchestrate enchanting web and mobile experiences. With an unwavering dedication to excellence, I blend innovation and precision to compose elegant solutions. Join me in the pursuit of technological brilliance and let's create a symphony of success together.</p>
+                            <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="cpp" />
                                 <h5>C/C++</h5>

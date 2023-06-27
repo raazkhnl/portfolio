@@ -6,16 +6,16 @@ const Footer = () => {
   return (
     <footer className="footer">
       <Container>
-        <Row className="align-items-center">
-          <Col size={12} sm={6}>
-          <a href="https://facebook.com/raazkhnl"><span><ImFacebook color="white" fontSize={'100px'}/></span></a>
+        <Row className="align-items-center" >
+          <Col size={12} sm={0} className="fb-footer">
+          <a target="_blank" rel="noreferrer" href="https://facebook.com/raazkhnl"><span><ImFacebook color="white" fontSize={'100px'}/></span></a>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-                <a href="https://linkedin.com/raazkhnl"><span><BsLinkedin color="white"/></span></a>
-                <a href="https://instagram.com/raazkhnl"><span><BsInstagram color="white"/></span></a>
+                <a target="_blank" rel="noreferrer" href="https://linkedin.com/raazkhnl"><span><BsLinkedin color="white"/></span></a>
+                <a target="_blank" rel="noreferrer" href="https://instagram.com/raazkhnl"><span><BsInstagram color="white"/></span></a>
                 <a href="to:raazkhnl@gmail.com"><span><BsAt color="white"/></span></a>
-                <a href="https://github.com/raazkhnl"><span><BsGithub color="white"/></span></a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/raazkhnl"><span><BsGithub color="white"/></span></a>
             </div>
           </Col>
         </Row>
