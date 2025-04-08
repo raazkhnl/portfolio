@@ -10,7 +10,6 @@ import TrackVisibility from 'react-on-screen';
 const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
@@ -30,41 +29,93 @@ const Skills = () => {
 
   return (
     <section className="skill" id="skills">
-        <div className="container">
-            <div className="row">
-                <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated": ""}>
+      <div className="container">
+        <div className="row">
+          <TrackVisibility>
+            {({ isVisible }) =>
+              <div className={isVisible ? "animate__animated" : ""}>
                 <div className="col-12">
-                
-                    <div className="skill-bx mt-2 ">
-                        <h2>Skills</h2>
-                            <p>Mastering the digital symphony, I wield a formidable arsenal of skills. From the harmonious melodies of C, C++, Python, and JavaScript to the mesmerizing rhythms of React, Laravel, and Django, I orchestrate enchanting web and mobile experiences. With an unwavering dedication to excellence, I blend innovation and precision to compose elegant solutions. Join me in the pursuit of technological brilliance and let's create a symphony of success together.</p>
-                            <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
-                                <img src={meter1} alt="cpp" />
-                                <h5>C/C++</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="brand" />
-                                <h5>Python</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="logo" />
-                                <h5>React / Native</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="web" />
-                                <h5>Web Development</h5>
-                            </div>
-                        </Carousel>
-                    </div>
-                    </div>
-                    </div>}
-            </TrackVisibility>
-            </div>
+
+                  <div className="skill-bx mt-2 ">
+                    <h2>Skills</h2>
+                    <p>
+                      From parsing complex state datasets to engineering robust web and mobile apps, I bring a deep understanding of full-stack development and data-driven systems. Whether building Flask-based APIs, crafting elegant UIs with React and React Native, or integrating OpenSearch and MongoDB for scalable analytics, I focus on clean architecture, performance, and clarity. My journey spans CI/CD pipelines, cloud solutions with AWS, and data correlation frameworks  — all driven by a passion for precision and progress. Let’s engineer meaningful systems, one elegant solution at a time.
+                    </p>                    <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                      <div className="item">
+                        <img src={meter1} alt="python" />
+                        <h5>Python, Data Analytics</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter2} alt="cpp" />
+                        <h5>C/C++</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter3} alt="react" />
+                        <h5>React JS</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter1} alt="ci-cd" />
+                        <h5>CI/CD</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter2} alt="flask" />
+                        <h5>Flask</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter3} alt="mongodb" />
+                        <h5>MongoDB, SQL</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter1} alt="react-native" />
+                        <h5>React Native</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter2} alt="expressjs" />
+                        <h5>ExpressJS</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter3} alt="aws" />
+                        <h5>AWS</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter1} alt="css" />
+                        <h5>CSS, Bootstrap, Tailwind, MaterialUI</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter2} alt="llm" />
+                        <h5>LLM Integration</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter2} alt="flask" />
+                        <h5>Flask REST, RESTFUL</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter3} alt="laravel" />
+                        <h5>Laravel</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter1} alt="nodejs" />
+                        <h5>Node JS</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter2} alt="firebase" />
+                        <h5>Firebase</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter3} alt="git" />
+                        <h5>Git & GitHub</h5>
+                      </div>
+
+
+
+                    </Carousel>
+                  </div>
+                </div>
+              </div>}
+          </TrackVisibility>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="bgImage" />
+      </div>
+      <img className="background-image-left" src={colorSharp} alt="bgImage" />
     </section>
   )
 }
