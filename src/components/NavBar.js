@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { HashLink } from 'react-router-hash-link';
-import { BsFacebook, BsInstagram, BsGithub } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsGithub, BsFileTextFill } from "react-icons/bs";
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
@@ -40,6 +40,7 @@ const NavBar = () => {
               <a target="_blank" rel="noreferrer" href="https://facebook.com/raazkhnl"><BsFacebook color="white" /></a>
               <a target="_blank" rel="noreferrer" href="https://instagram.com/raazkhnl"><BsInstagram color="white" /></a>
               <a target="_blank" rel="noreferrer" href="https://github.com/raazkhnl"><BsGithub color="white" /></a>
+              <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1NlHceRr-VpxUyUzdX0nhSfbaG_O7blH0/view"><BsFileTextFill color="white" /></a>
             </div>
             <HashLink to="#connect">
               <button className="vvd"><span>Let’s Connect</span></button>

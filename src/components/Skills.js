@@ -42,11 +42,11 @@ const Skills = () => {
                       From parsing complex state datasets to engineering robust web and mobile apps, I bring a deep understanding of full-stack development and data-driven systems. Whether building Flask-based APIs, crafting elegant UIs with React and React Native, or integrating OpenSearch and MongoDB for scalable analytics, I focus on clean architecture, performance, and clarity. My journey spans CI/CD pipelines, cloud solutions with AWS, and data correlation frameworks  — all driven by a passion for precision and progress. Let’s engineer meaningful systems, one elegant solution at a time.
                     </p>                    <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                       <div className="item">
-                        <img src={meter1} alt="python" />
+                        <img src={meter3} alt="python" />
                         <h5>Python, Data Analytics</h5>
                       </div>
                       <div className="item">
-                        <img src={meter2} alt="cpp" />
+                        <img src={meter1} alt="cpp" />
                         <h5>C/C++</h5>
                       </div>
                       <div className="item">
@@ -54,7 +54,7 @@ const Skills = () => {
                         <h5>React JS</h5>
                       </div>
                       <div className="item">
-                        <img src={meter1} alt="ci-cd" />
+                        <img src={meter2} alt="ci-cd" />
                         <h5>CI/CD</h5>
                       </div>
                       <div className="item">
@@ -74,7 +74,7 @@ const Skills = () => {
                         <h5>ExpressJS</h5>
                       </div>
                       <div className="item">
-                        <img src={meter3} alt="aws" />
+                        <img src={meter2} alt="aws" />
                         <h5>AWS</h5>
                       </div>
                       <div className="item">
@@ -98,11 +98,11 @@ const Skills = () => {
                         <h5>Node JS</h5>
                       </div>
                       <div className="item">
-                        <img src={meter2} alt="firebase" />
+                        <img src={meter3} alt="firebase" />
                         <h5>Firebase</h5>
                       </div>
                       <div className="item">
-                        <img src={meter3} alt="git" />
+                        <img src={meter1} alt="git" />
                         <h5>Git & GitHub</h5>
                       </div>
 
